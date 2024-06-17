@@ -1,0 +1,13 @@
+/* CSS to hide the spinner controls for input[type="number"] */
+.otp-input {
+    height: 30px;
+    width: 30px;
+    -moz-appearance: textfield;
+  }
+  
+  .otp-input::-webkit-outer-spin-button,
+  .otp-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
